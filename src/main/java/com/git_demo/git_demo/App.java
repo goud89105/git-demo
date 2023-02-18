@@ -9,8 +9,8 @@ public class App
 	
 	public void add(String data)
 	{
-		System.out.println("dummy method");
-		if(data.equals("ravindra")) {
+		
+		if(data.equals(Constant.DATA_TYPE)) {
 			System.out.println("do some changes");
 		}
 	}
