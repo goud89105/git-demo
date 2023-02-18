@@ -7,7 +7,7 @@ package com.git_demo.git_demo;
 public class App 
 {
 	
-	public void add(String data)
+	public void add(String data,String name)
 	{
 		
 		if(data.equals(Constant.DATA_TYPE)) {
@@ -15,7 +15,7 @@ public class App
 		}
 	}
 	
-	public void added()
+	public void added(int number)
 	{
 		System.out.println("do some changes by dev2");
 	}
